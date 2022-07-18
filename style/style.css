@@ -5,6 +5,7 @@ body {
 
     font-family: 'Poppins', sans-serif;
     background: #F3F1FF;
+    margin: 0;
 }
 
 hr {
@@ -13,6 +14,48 @@ hr {
 
 }
 
+/* header design */
+.header-area {
+    background: #562EFF;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.title-area {
+    display: flex;
+    align-items: center;
+}
+
+.title-area img {
+    width: 50px;
+    height: 50px;
+}
+
+.header-area .web-title {
+    margin: 0;
+    color: #fff;
+    margin-left: 20px;
+    font-size: 21px;
+}
+
+.profile-area ul {
+    display: flex;
+    align-items: center;
+}
+
+.profile-area ul li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.profile-area ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14.6px;
+}
+
+/* header design end */
 main {
     display: flex;
     align-items: center;
